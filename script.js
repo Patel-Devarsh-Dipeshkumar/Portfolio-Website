@@ -345,7 +345,7 @@ function initializeAnimations() {
 
   // Observe elements that should animate on scroll
   const animateElements = document.querySelectorAll(
-    ".about-card, .skills-category, .project-card, .contact-card, .skill-badge",
+    ".about-card, .skills-category, .project-card-full, .contact-card, .skill-badge",
   )
   animateElements.forEach((el) => {
     el.style.opacity = "0"

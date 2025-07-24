@@ -223,7 +223,7 @@
               <div class="stat-label">Year at IIT GN</div>
             </div>
             <div class="stat-item">
-              <div class="stat-number" data-target="3">0</div>
+              <div class="stat-number" data-target="4">0</div>
               <div class="stat-label">Projects Completed</div>
             </div>
           </div>
@@ -303,100 +303,63 @@
       </div>
     </section>
 
-
       <!-- Projects Section -->
       <section id="projects" class="section">
         <div class="section-header">
           <span class="section-subtitle">My work</span>
           <h2 class="section-title">Projects</h2>
         </div>
-        <div class="projects-grid">
+        <div class="projects-container">
           
-          <a 
-            href="https://docs.google.com/spreadsheets/d/16hSXd3AN_15XgXMNlxq8FnmVy5_yH2bJ/edit?gid=1101547295#gid=1101547295" 
-            target="_blank" 
-            rel="noopener"
-            class="project-card-link"
-          >
-            <div class="project-card">
-              <div class="project-image">
-                <div class="project-overlay">
-                  <div class="project-links">
-                    <div class="project-link">
-                      <svg
-                        width="20"
-                        height="20"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="2"
-                      >
-                        <path
-                          d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
-                        />
-                        <polyline points="15,3 21,3 21,9" />
-                        <line x1="10" y1="14" x2="21" y2="3" />
-                      </svg>
-                    </div>
-                  </div>
-                </div>
-                <div class="project-placeholder">📊</div>
-              </div>
-              <div class="project-content">
-                <div class="project-category">Finance (Dec '24)</div>
-                <h3 class="project-title">Financial Analysis (DCF Model)</h3>
-                <p class="project-description" style="text-align: justify;">
-                  Built a detailed DCF model to estimate Infosys' intrinsic value (Dec 2024), using financial data from annual reports. Projected FCFs, calculated WACC using equity and debt data, and performed sensitivity analysis on growth and discount rates.
-                </p>
-                <div class="project-tech">
-                </div>
-              </div>
-            </div>
-          </a>
-
-         
-          <div class="project-card">
-            <div class="project-image">
-              <div class="project-overlay">
-                <div class="project-links">
-                  <a
-                    href="https://www.youtube.com/watch?si=NpNZfF2J1T9TMtxD&v=x8QPa1LJ2Kg&feature=youtu.be"
-                    class="project-link"
-                    target="_blank"
-                    rel="noopener"
-                    title="Watch Demo Video"
+          <!-- Project 1: Financial Analysis -->
+          <div class="project-card-full">
+            <div class="project-content-full">
+              <div class="project-category">Finance (Dec '24)</div>
+              <h3 class="project-title-full">Financial Analysis (DCF Model)</h3>
+              <p class="project-description-full" style="text-align: justify;">
+                Built a detailed DCF model to estimate Infosys' intrinsic value (Dec 2024), using financial data from annual reports. Projected FCFs, calculated WACC using equity and debt data, and performed sensitivity analysis on growth and discount rates.
+              </p>
+              <div class="project-links-full">
+                <a 
+                  href="https://docs.google.com/spreadsheets/d/16hSXd3AN_15XgXMNlxq8FnmVy5_yH2bJ/edit?gid=1101547295#gid=1101547295" 
+                  target="_blank" 
+                  rel="noopener"
+                  class="project-link-btn"
+                >
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
                   >
-                    <svg
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    >
-                      <polygon points="5,3 19,12 5,21 5,3" />
-                    </svg>
-                  </a>
-                </div>
+                    <path
+                      d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                    />
+                    <polyline points="15,3 21,3 21,9" />
+                    <line x1="10" y1="14" x2="21" y2="3" />
+                  </svg>
+                  <span>View Analysis</span>
+                </a>
               </div>
-              <div class="project-placeholder">⚡</div>
             </div>
-            <div class="project-content">
+          </div>
+
+          <!-- Project 2: Smart Blind Stick -->
+          <div class="project-card-full">
+            <div class="project-content-full">
               <div class="project-category">Electrical (Jan '25 - Apr '25)</div>
-              <h3 class="project-title">Smart Blind Stick</h3>
-              <p class="project-description" style="text-align: justify;">
+              <h3 class="project-title-full">Smart Blind Stick</h3>
+              <p class="project-description-full" style="text-align: justify;">
                 Engineered a Smart Blind Stick with ultrasonic sensors for obstacle detection, GPS and GSM modules for emergency SMS location alerts, and IR-based relocation to help users find the stick easily.
               </p>
-              <div class="project-tech">
-              </div>
-              <div class="project-demo-section">
+              <div class="project-links-full">
                 <a 
                   href="https://www.youtube.com/watch?si=NpNZfF2J1T9TMtxD&v=x8QPa1LJ2Kg&feature=youtu.be" 
                   target="_blank" 
                   rel="noopener"
-                  class="demo-link"
+                  class="project-link-btn demo-btn"
                 >
                   <svg
                     width="20"
@@ -416,45 +379,91 @@
             </div>
           </div>
 
-          <a 
-            href="https://github.com/Patel-Devarsh-Dipeshkumar/C019_Assignment-3" 
-            target="_blank" 
-            rel="noopener"
-            class="project-card-link"
-          >
-            <div class="project-card">
-              <div class="project-image">
-                <div class="project-overlay">
-                  <div class="project-links">
-                    <div class="project-link">
-                      <svg
-                        width="20"
-                        height="20"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="2"
-                      >
-                        <path
-                          d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
-                        />
-                      </svg>
-                    </div>
-                  </div>
-                </div>
-                <div class="project-placeholder">📊</div>
-              </div>
-              <div class="project-content">
-                <div class="project-category">Data Analysis (Jan '25 - Apr '25)</div>
-                <h3 class="project-title">Data Analysis on Indian Pollution Dataset</h3>
-                <p class="project-description" style="text-align: justify;">
-                  An Exploratory Data Analysis (EDA) on an Indian pollution dataset as part of the Probability, Statistics, and Data Visualization (PSDV) course led by Prof. Nipun Batra. The analysis focused on examining air quality data across major Indian cities and generating meaningful insights through impactful visualizations.
-                </p>
-                <div class="project-tech">
-                </div>
+          <!-- Project 3: Data Analysis -->
+          <div class="project-card-full">
+            <div class="project-content-full">
+              <div class="project-category">Data Analysis (Jan '25 - Apr '25)</div>
+              <h3 class="project-title-full">Data Analysis on Indian Pollution Dataset</h3>
+              <p class="project-description-full" style="text-align: justify;">
+                An Exploratory Data Analysis (EDA) on an Indian pollution dataset as part of the Probability, Statistics, and Data Visualization (PSDV) course led by Prof. Nipun Batra. The analysis focused on examining air quality data across major Indian cities and generating meaningful insights through impactful visualizations.
+              </p>
+              <div class="project-links-full">
+                <a 
+                  href="https://github.com/Patel-Devarsh-Dipeshkumar/C019_Assignment-3" 
+                  target="_blank" 
+                  rel="noopener"
+                  class="project-link-btn github-btn"
+                >
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                    />
+                  </svg>
+                  <span>GitHub Repo</span>
+                </a>
               </div>
             </div>
-          </a>
+          </div>
+
+          <!-- Project 4: Non-Tripping Hurdle -->
+          <div class="project-card-full">
+            <div class="project-content-full">
+              <div class="project-category">Design Innovation (Aug'24-Nov'24)</div>
+              <h3 class="project-title-full">Create Safer, Non-Tripping Hurdle for Amateurs</h3>
+              <p class="project-description-full" style="text-align: justify;">
+                In this DIP (Design Innovation and Prototyping) course project at IIT Gandhinagar, our team set out to solve a common problem faced by amateur runners—injuries caused by tripping over traditional athletic hurdles. Through extensive user research, rapid prototyping, and iterative testing, we developed a non-tripping, collapsible hurdle that enhances safety during training without compromising performance. Our goal was to create beginner-friendly sports equipment that prioritizes injury prevention, user comfort, and ease of use. This project highlights our hands-on teamwork, creative problem-solving, and user-centered design approach.
+              </p>
+              <div class="project-links-full">
+                <a 
+                  href="https://youtu.be/fY4o6GWbQCg?si=l2uoVuPaeUsqbCRG" 
+                  target="_blank" 
+                  rel="noopener"
+                  class="project-link-btn demo-btn"
+                >
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <polygon points="5,3 19,12 5,21 5,3" />
+                  </svg>
+                  <span>Watch Demo Video</span>
+                </a>
+                <a 
+                  href="https://drive.google.com/file/d/1kARBjAnN6NTAI1HzwWHxYQMbDESe3G6F/view" 
+                  target="_blank" 
+                  rel="noopener"
+                  class="project-link-btn github-btn"
+                >
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z" />
+                    <polyline points="14,2 14,8 20,8" />
+                  </svg>
+                  <span>Detailed Report</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
         </div>
       </section>
 
